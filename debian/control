@@ -1,0 +1,15 @@
+Source: s-tui
+Maintainer: Barry Price <barry.price@ubuntu.com>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 11~), dh-python, stress
+Standards-Version: 4.1.4
+Testsuite: autopkgtest-pkg-python
+
+Package: python-s-tui
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, stress
+Description: Stress Terminal UI stress test and monitoring tool
+  s-tui is a terminal UI for monitoring your computer. s-tui allows to
+  monitor CPU temperature, frequency, power and utilization in a graphical
+  way from the terminal.
